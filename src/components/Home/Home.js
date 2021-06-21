@@ -14,9 +14,9 @@ const Home = () => {
             <h2>Your Email:{user.email}</h2>
             <img style={{width:"50%"}} src={user.photo} alt=""/>
             <br/><br/>
+            <h1>This is Home</h1>
             <SignOut></SignOut>
             <Link to="/inventory">Inventory</Link>
-            <h1>This is Home</h1>
         </div>
     );
 };
